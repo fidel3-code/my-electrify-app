@@ -21,20 +21,27 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
         val signin = findViewById<Button>(R.id.signin)
         signin.setOnClickListener {
 
-            val signinIntent= Intent(applicationContext,signin::class.java)
+            val signinIntent= Intent(applicationContext,SignIn::class.java)
             startActivity(signinIntent)
         }
 
         val signup = findViewById<Button>(R.id.signup)
         signup.setOnClickListener {
 
-            val signupIntent= Intent(applicationContext,signup::class.java)
+            val signupIntent= Intent(applicationContext, SignUp::class.java)
             startActivity(signupIntent)
         }
     }
+
+//    http://fidel.alwaysdata.net/api/signin
+//    http://fidel.alwaysdata.net/api/signup
+//    http://fidel.alwaysdata.net/api/getproductdetails
+//    http://fidel.alwaysdata.net/api/mpesa_payment
+//    http://fidel.alwaysdata.net/api/addproducts
 
 
 

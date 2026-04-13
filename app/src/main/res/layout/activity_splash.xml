@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
+    android:backgroundTint="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash">
@@ -12,12 +13,21 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:src="@drawable/fidel"/>
+        android:src="@drawable/canvalogo"/>
+
+    <TextView
+        android:layout_width="377dp"
+        android:layout_height="93dp"
+        android:layout_margin="20dp"
+        android:text="sokogarden"
+        android:textAlignment="center"
+        android:textColor="#014507"
+        android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:textColor="#028A0F"
+        android:textColor="#014507"
         android:text="Developed by Fidel 2026"
         android:textSize="20sp"
         android:textAlignment="center"
