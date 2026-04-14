@@ -11,21 +11,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VoltSphere App designed by Joy!"
-        android:fontFamily="sans-serif-condensed-light"
-        android:textSize="40dp"
         android:background="#B63360"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="VoltSphere App designed by Joy!"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
-
-
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
