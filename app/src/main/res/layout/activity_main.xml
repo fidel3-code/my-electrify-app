@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
-    android:backgroundTint="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,17 +14,27 @@
         android:layout_height="66dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/shape"
-        android:text="Sokogarden"
+        android:text="electrify™"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/signin"
+        android:backgroundTint="#54ACF4"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:padding="10dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signup"
         android:text="Sign Up"
-        android:backgroundTint="#EFB508"
+        android:backgroundTint="#54ACF4"
         android:layout_margin="20dp"
         android:textSize="20sp"
         android:padding="10dp"/>
@@ -33,11 +42,24 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/signin"
-        android:text="Sign In"
-        android:backgroundTint="#EFB508"
+        android:backgroundTint="#54ACF4"
+        android:text="About Info"
+        android:id="@+id/aboutinfo"
         android:layout_margin="20dp"
-        android:textSize="20sp"
-        android:padding="10dp"/>
+        android:textSize="20sp"/>
+
+
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/singleitem" />
 
 </LinearLayout>

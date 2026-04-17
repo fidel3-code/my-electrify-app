@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Info"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:background="@drawable/shape"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our eCommerce app,a simple and \n user-friendly platform designed to make online \n shopping easy and accessible for everyone.Users \n can quickly sign up to create an account,securely \n sign in, and browse a wide range of products with \n detailed descriptions and images.Our seamless \n checkout process allows customers to pay \n conviniently through M-Pesa."
+        android:textSize="18sp"
+        android:id="@+id/textview"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type something to speak"
+        android:drawableStart="@drawable/texttospeech"
+        android:drawablePadding="10dp"
+        android:drawableTint="#54ACF4"
+        android:id="@+id/inputText"
+        android:textSize="18sp"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speakButton"
+        android:text="Listen"
+        android:backgroundTint="#54ACF4"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeechToText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your speech will appear here"
+        android:textSize="18sp"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to speak"
+        android:drawableStart="@drawable/mic"
+        android:drawableTint="@color/white"
+        android:backgroundTint="#54ACF4"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>

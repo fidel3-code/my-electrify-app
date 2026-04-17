@@ -5,30 +5,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:backgroundTint="@color/white"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:backgroundTint="#0392D1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".Splash">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:src="@drawable/canvalogo"/>
 
     <TextView
         android:layout_width="377dp"
-        android:layout_height="93dp"
+        android:layout_height="400dp"
         android:layout_margin="20dp"
-        android:text="sokogarden"
+        android:text="\n\ \n \n \n electrify™"
         android:textAlignment="center"
-        android:textColor="#014507"
+        android:textColor="#54ACF4"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:textColor="#014507"
-        android:text="Developed by Fidel 2026"
+        android:textColor="#54ACF4"
+        android:text="\n \n \n \n\n\n     Developed by Fidel 2026"
         android:textSize="20sp"
         android:textAlignment="center"
         android:layout_marginLeft="70dp"
