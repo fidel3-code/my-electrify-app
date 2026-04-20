@@ -21,7 +21,7 @@ class SignIn : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val signin=findViewById<TextView>(R.id.signin_link)
+        val signin=findViewById<TextView>(R.id.signup_link)
 
         signin.setOnClickListener {
 

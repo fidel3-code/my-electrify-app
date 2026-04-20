@@ -22,7 +22,7 @@ class SignUp : AppCompatActivity() {
             insets
         }
 
-        val signup=findViewById<TextView>(R.id.signup_link)
+        val signup=findViewById<TextView>(R.id.signin_link)
 
         signup.setOnClickListener {
             val signUplink= Intent(applicationContext, SignIn::class.java)
